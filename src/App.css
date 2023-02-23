@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+}
+
+/* snow bound and name/title */
+.intro-box {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  background: 
+    linear-gradient(
+      -40deg,
+      rgba(0,0,0,0.3),
+      rgba(0, 40, 105, 0.3)
+    )
+  ;
+}
+.intro-container {
+  width: 100%;
+}
+.intro-name {
+  font-size: 3.5em;
+}
+.intro-title {
+  font-size: 2.0em;
+}
+.main-body-box {
+  height: auto;
+}
+.about-box {
+  scroll-margin-top: 64.5px;
+}
+.projects-box {
+  scroll-margin-top: 64.5px;
+}
+.skills-box {
+  scroll-margin-top: 64.5px;
+}
+.contact-box {
+  scroll-margin-top: 64.5px;
+}
